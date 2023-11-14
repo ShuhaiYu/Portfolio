@@ -11,26 +11,22 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
+          <Row className="justify-content-md-center">
+            <Col md={6} className="home-header" style={{ textAlign: "left" }}>
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+              <h1 className="heading-name" >
+                I'M <strong className="main-name"> Shuhai Yu</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50}}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={6} style={{ paddingBottom: 20, display: "flex", justifyContent: "center" }}>
               <img
                 src={homeLogo}
                 alt="home pic"
