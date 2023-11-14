@@ -686,6 +686,11 @@ html {
     background: #fff;
     border: 2px solid #8a49a8;
   }
+
+  .react-pdf__Page__textContent {
+    display: none; 
+  }
+  
   
   .like-item {
     padding-top: 10px !important;
