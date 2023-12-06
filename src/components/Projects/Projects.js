@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import objectDetection from "../../Assets/Projects/objectDetection.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import LocalEats from "../../Assets/Projects/LocalEats.png";
 
 function Projects() {
   return (
@@ -63,18 +59,18 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col>*/}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={LocalEats}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Android App: Local Eats"
+              description="An Android app that allows users to search for recipes based on ingredients they have on hand. The app also allows users to save recipes to their favorites and view them later. The app uses the Spoonacular API to search for recipes and the Firebase Realtime Database to store user data."
+              ghLink="https://github.com/ShuhaiYu/AndroidApp-LocalEat"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col> */}
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
