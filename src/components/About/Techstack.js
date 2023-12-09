@@ -8,12 +8,15 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiAndroid,
+  DiDatabase,
 } from "react-icons/di";
 import {
   SiFirebase,
   SiNextdotjs,
   SiPostgresql,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -43,10 +46,19 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
       </Col>
     </Row>
   );
