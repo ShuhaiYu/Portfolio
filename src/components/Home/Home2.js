@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/a.svg";
+import myImg from "../../Assets/Shuhai.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineFacebook,
 } from "react-icons/ai";

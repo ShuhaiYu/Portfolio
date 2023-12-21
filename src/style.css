@@ -259,7 +259,7 @@ html {
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/h-bg.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
@@ -450,7 +450,8 @@ html {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    background-image: var(--image-gradient), url(./Assets/h-bg.jpg);
+    height: 100vh;
   }
   
   .project-card {
