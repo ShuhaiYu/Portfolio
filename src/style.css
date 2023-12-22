@@ -52,24 +52,24 @@ html {
   /* --------- */
   
   ::-webkit-scrollbar {
-    width: 7px;
+    width: 9px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d1950;
+    background: #1c0d74;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
-    border-radius: 12px;
+    background: rgba(89, 97, 209, 1);
+    border-radius: 20px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
-    border-radius: 12px;
+    background: rgba(130, 158, 235, 1);
+    border-radius: 20px;
   }
   
   /* --------- */
@@ -404,7 +404,7 @@ html {
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: rgb(9, 5, 44);
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -441,7 +441,7 @@ html {
   }
   
   .blockquote-footer {
-    color: #a588c0 !important;
+    color: #3480d8 !important;
   }
   /* --------- */
   /* Projects */
@@ -463,7 +463,7 @@ html {
   }
   
   .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    box-shadow: 0 4px 5px 3px #6db1ff !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -473,7 +473,7 @@ html {
   .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 4px 4px 5px #6db1ff !important;
   }
   
   .blog-card {
@@ -486,7 +486,7 @@ html {
   
   .blog-card-view {
     background-color: transparent !important;
-    box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+    box-shadow: 0 3px 3px 2px #6db1ff !important;
     color: white !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
@@ -504,7 +504,7 @@ html {
   .blog-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+    box-shadow: 0 3px 3px 5px #6db1ff !important;
   }
   
   .card-img-top {
@@ -521,14 +521,14 @@ html {
   
   .btn-primary {
     color: #fff !important;
-    background-color: #623686 !important;
-    border-color: #623686 !important;
+    background-color: #364b86 !important;
+    border-color: #364b86 !important;
   }
   
   .btn-primary:hover {
     color: #fff !important;
-    background-color: #6d20c5d7 !important;
-    border-color: #6d20c5d7 !important;
+    background-color: #364b86 !important;
+    border-color: #364b86 !important;
   }
   .btn:focus {
     outline: none !important;
@@ -558,12 +558,12 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border: 1.7px solid #6db1ff !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px rgba(4, 29, 168, 0.137) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -577,7 +577,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid #6db1ff !important;
   }
   .tech-icon-images {
     padding: 20px !important;
